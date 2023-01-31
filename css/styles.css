@@ -51,7 +51,20 @@ ul li{
   overflow: hidden;
 }
 
+
+
 /* ----------------------------------------------------------------------------------header */
+p, h1,h2,h3,h4,h5{
+  margin: 0;
+}
+ul{
+  margin: 0;
+}
+
+
+
+
+
 .header-logo{
   font-weight: 800;
 font-size: 18px;
@@ -60,6 +73,8 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 text-decoration: none;
 color: var(--dark);
+font-family: "Raleway", sans-serif;
+
 }
 
 
@@ -84,6 +99,7 @@ text-decoration: none;
   font-size: 16px;
   line-height: 1.5;
   color: var(--dark);
+  
   
 }
 
@@ -118,7 +134,14 @@ text-decoration: none;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   color: var(--background);
+  text-align: center;
+  padding: 260px 473px 292px 473px;
+}
+
+div{
+  display: block;
 }
 
 .section-one .section-one-button {
@@ -131,7 +154,15 @@ text-decoration: none;
   cursor: pointer;
   color: var(--background);
   background-color: var(--primary-brand);
+  padding: 16px 32px 16px 32px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 48px;
+  padding: 16px 32px;
+  display: block;
+  
 }
+
 
 .section-one .section-one-button:is(:focus, :hover) {
   background-color: var(--pressed-state);
@@ -249,3 +280,26 @@ color: var(--primary-brand);
 }
 
 
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.header-part{
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.container{
+  display: flex;
+  width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo{
+  margin: 0 auto
+}
