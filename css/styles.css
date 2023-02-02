@@ -65,7 +65,6 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 
-
 .header-part{
   padding-top: 24px;
   padding-bottom: 24px;
@@ -161,34 +160,26 @@ font-family: "Raleway", sans-serif;
 
 
 .title-items{
-  
   width: 496px;
   margin-left: 0;
   margin-right: 0;
- 
 }
-
-
-.section-one-title {
-  
+.section-one-title { 
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--background);
-  text-align: center;
-  
-  
+  text-align: center; 
+  width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
 
-
-
 .section-one .section-one-button {
- 
-   
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -196,21 +187,21 @@ font-family: "Raleway", sans-serif;
   cursor: pointer;
   color: var(--background);
   background-color: var(--primary-brand);
-  
- 
+  letter-spacing: 0.03em;
+  padding: 16px 32px;
 }
 .section-one-button{
-  padding: 16px 32px;
+  
   margin-top: 48px;
   margin-left: auto;
   margin-right: auto;
   display: block;
   border: none;
   border-radius: 4px;
+  width: 169px;
+  
+  
 }
-
-
-
 
 .section-one .section-one-button:is(:focus, :hover) {
   background-color: var(--pressed-state);
@@ -415,14 +406,18 @@ color: var(--primary-brand);
   
 }
 
-
-
-.portfolio-boxes{
+.portfolio-box{
   padding: 32px 16px;
   border-left: 1px solid var(--footer-text);
   border-right: 1px solid var(--footer-text);
   border-bottom: 1px solid var(--footer-text);
 }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  }
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 section{
