@@ -24,9 +24,7 @@ body {
   letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 1.5;
-  list-style: none;
-  font-style: none;
-  list-style-type: none;
+  
 }
 
 nav ul li {
@@ -68,7 +66,7 @@ h1,h2,h3,h4,h5,h6,p {
 .header-part{
   padding-top: 24px;
   padding-bottom: 24px;
-  border: 1px solid var(--footer-text);
+  border-bottom: 1px solid var(--footer-text);
 }
 
 .navigation{
@@ -81,7 +79,11 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .header-adress-list{
-  margin-left: 332px;
+  
+  align-items: center;
+  display: flex;
+  gap: 40px;
+
 }
 
 .header-logo{
@@ -127,6 +129,10 @@ font-family: "Raleway", sans-serif;
   
 }
 
+.header-adress{
+  margin-left: auto;
+}
+
 .header-adress-list{
   display: flex;
   gap: 40px;
@@ -165,7 +171,7 @@ font-family: "Raleway", sans-serif;
   margin-right: 0;
 }
 .section-one-title { 
-  font-family: "Roboto", sans-serif;
+  
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -198,22 +204,24 @@ font-family: "Raleway", sans-serif;
   display: block;
   border: none;
   border-radius: 4px;
-  width: 169px;
+  
+  box-shadow:  0px 4px 4px 0px #00000026;
+  ;
   
   
 }
 
 .section-one .section-one-button:is(:focus, :hover) {
   background-color: var(--pressed-state);
-  font-family: "Roboto", sans-serif;  
+  
 }
 
 
 /* SECTION2 */
 
 .description-main{
-  margin-top: 120px;
-  margin-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .features-description{
@@ -238,13 +246,13 @@ font-family: "Raleway", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: var(--text);
-  padding-top: 8px;
+  margin-top: 8px;
 }
 
 /* what are we doing */
 .doing-box{
-  margin-top: 120px;
-  margin-bottom: 120px;
+  
+  padding-bottom: 120px;
 }
 
 .our-team-list {
