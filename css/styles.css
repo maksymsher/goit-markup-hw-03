@@ -257,6 +257,9 @@ font-family: "Raleway", sans-serif;
 
 .our-team-list {
   background-color: var(--background);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px #2E2F4214, 0px 1px 1px 0px #2E2F4229, 0px 1px 6px 0px #2E2F4214;
+  
 }
 
 
@@ -268,7 +271,7 @@ font-weight: 700;
 color: var(--dark);
 text-align: center;
 text-transform: capitalize;
-padding-bottom: 72px;
+margin-bottom: 72px;
 }
 
 .section-three-items{
@@ -279,6 +282,7 @@ padding-bottom: 72px;
 
 .our-team-box{
   padding-top: 120px;
+  padding-bottom: 120px;
   background-color: var(--our-team-back)
 }
 .our-team-box .our-team-title{
@@ -292,14 +296,14 @@ padding-bottom: 72px;
 
 .our-team-title{
   text-align: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   text-transform: capitalize;
 }
 
 .our-team-items{
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
+  
 }
 
 .our-team-items .main-description-title{
@@ -310,8 +314,8 @@ padding-bottom: 72px;
 
 .our-team-items .main-description-text{
   text-align: center;
-  padding-top: 8px;
-  padding-bottom: 32px;
+  margin-top: 8px;
+  margin-bottom: 32px;
 
 }
 
@@ -352,7 +356,7 @@ color: var(--our-team-back);
   font-size: 16px;
   line-height: 1.5;
   color: var(--footer-text);
-  padding-top: 16px;
+  margin-top: 16px;
 }
 
 
@@ -367,7 +371,7 @@ color: var(--our-team-back);
   
   justify-content: center;
   gap: 24px;
-  border: none;
+  
 }
 
 .btn-text{
@@ -379,7 +383,7 @@ color: var(--our-team-back);
 .button-list .btn-text {
   
   font-family: "Roboto", sans-serif;
-  text-decoration: none;
+  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -395,6 +399,12 @@ color: var(--primary-brand);
 .button-list .btn-text:is(:hover, :focus) {
   background-color: var(--focus-blue);
   color: var(--background);
+  box-shadow:0px 2px 2px 0px #0000001F, 0px 2px 1px 0px #00000014, 0px 3px 1px 0px #0000001A;
+
+  
+  
+ 
+  
 
   
 }
