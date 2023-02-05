@@ -355,6 +355,7 @@ color: var(--our-team-back);
 /* --------------------------------------------------portfolio */
 .btn-portfolio{
   padding-top: 96px;
+  padding-bottom: auto;
 }
 
 .button-list{
